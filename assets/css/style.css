@@ -1568,19 +1568,20 @@ p{
 
 }
 .collumns{
-margin-left: 10%;
-}
-
-.collumn{
-    font-size: 14px;
-    line-height: 20px;
-    width: 17.5%;
-    display: inline-block;
-    padding: 0 1% 0 1%;
-    vertical-align: top;
-    margin-bottom: 50px;
-    transition: all .7s;
-}
+  margin-left: 10%;
+  }
+  
+  .collumn{
+      font-size: 14px;
+      line-height: 20px;
+      width: 30%;
+      display: inline-block;
+      padding: 0 1% 0 1%;
+      vertical-align: top;
+      margin-bottom: 50px;
+      transition: all .7s;
+      margin-left: 5%;
+  }
 .collumn + .collumn { 
   border-left: 1px solid #2f2f2f;
 }
