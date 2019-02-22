@@ -58,30 +58,8 @@ nav div.nav-container > div:nth-of-type(5n+3) .slide ~ .child-menu, nav div.nav-
 nav div.nav-container > div:nth-of-type(5n+3) input:checked ~ label, nav div.nav-container > div:nth-of-type(5n+3) .slide.active ~ label {
   color: #ffa61a;
 }
-nav div.nav-container > div:nth-of-type(5n+4) .slide, nav div.nav-container > div:nth-of-type(5n+4) a {
-  border-color: #1ab1ff;
-}
-nav div.nav-container > div:nth-of-type(5n+4) .slide:hover, nav div.nav-container > div:nth-of-type(5n+4) a:hover {
-  color: #0076b3;
-}
-nav div.nav-container > div:nth-of-type(5n+4) .slide ~ .child-menu, nav div.nav-container > div:nth-of-type(5n+4) a ~ .child-menu {
-  background-color: #4dc2ff;
-}
-nav div.nav-container > div:nth-of-type(5n+4) input:checked ~ label, nav div.nav-container > div:nth-of-type(5n+4) .slide.active ~ label {
-  color: #1ab1ff;
-}
-nav div.nav-container > div:nth-of-type(5n+5) .slide, nav div.nav-container > div:nth-of-type(5n+5) a {
-  border-color: #FC1DCF;
-}
-nav div.nav-container > div:nth-of-type(5n+5) .slide:hover, nav div.nav-container > div:nth-of-type(5n+5) a:hover {
-  color: #b1028d;
-}
-nav div.nav-container > div:nth-of-type(5n+5) .slide ~ .child-menu, nav div.nav-container > div:nth-of-type(5n+5) a ~ .child-menu {
-  background-color: #fd4fda;
-}
-nav div.nav-container > div:nth-of-type(5n+5) input:checked ~ label, nav div.nav-container > div:nth-of-type(5n+5) .slide.active ~ label {
-  color: #FC1DCF;
-}
+
+
 nav a, nav label {
   -moz-transition-property: color;
   -o-transition-property: color;
@@ -1802,7 +1780,7 @@ font-size: 12px;
 } */
 
 /* linkdin */
-body {
+.body1 {
 font-family: 'Roboto Slab', serif;
 margin: 0;
 }
@@ -1812,7 +1790,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100vw;
-height: 100vh;
+height: 50vh;
 font-size: 5vw;
 font-weight: 100;
 }
